@@ -85,7 +85,7 @@ const ProfilePage = () => {
   // Fetch user data from the server
   const getUser = async () => {
     try {
-      const response = await fetch(`http://localhost:3001/users/${userId}`, {
+      const response = await fetch(`https://backend-unreal.adaptable.app/users/${userId}`, {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       });
