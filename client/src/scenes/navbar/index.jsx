@@ -56,7 +56,7 @@
 //             },
 //           }}
 //         >
-//           NiggerPedia
+//          TravelBook
 //         </Typography>
 //         {isNonMobileScreens && (
 //           <FlexBetween
@@ -262,7 +262,7 @@ const Navbar = () => {
             },
           }}
         >
-          NiggerPedia
+          TravelBook
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
